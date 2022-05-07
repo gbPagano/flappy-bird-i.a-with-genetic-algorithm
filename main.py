@@ -5,6 +5,8 @@ import numpy as np
 from random import randrange
 from rede_neural import *
 
+player = True
+
 ALTURA = 768
 LARGURA = 432
 
@@ -338,7 +340,7 @@ def ia_jogando():
                 
                 acabou = False
 
-player = False
+
 if __name__ == '__main__':
     if player:
         jogador()
